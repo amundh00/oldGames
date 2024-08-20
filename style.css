@@ -7,6 +7,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 #games-container{
@@ -14,7 +18,8 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
+    
 }
 
 @media (max-width: 900px) {
